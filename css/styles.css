@@ -11044,3 +11044,118 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+/* Estilos Gerais */
+.page-section {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Título e Subtítulo */
+.section-title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Opções de Suporte */
+.support-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.support-option {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.support-option:hover {
+  transform: translateY(-10px);
+}
+
+.support-option i {
+  font-size: 2em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.support-option h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.support-option p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Formulário de Suporte */
+.support-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.support-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.support-form input,
+.support-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #333;
+}
+
+.support-form input:focus,
+.support-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.support-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.support-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .support-options {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .support-option {
+      width: 100%;
+  }
+}
